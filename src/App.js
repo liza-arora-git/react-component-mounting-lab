@@ -11,6 +11,10 @@ class App extends Component {
 
 
   //Your code here:
+  //Overriding the parent's methods
+  componentDidMount() {
+    this.handleAddTimer();
+  }
 
 
 
